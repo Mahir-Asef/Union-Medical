@@ -1,0 +1,84 @@
+[
+    {
+        "id":1,
+        "img":"http://medicalmarketbd.com/wp-content/uploads/2020/05/Oxyd-370x370.jpg",
+        "name":" Oxygen Concentrator",
+        "price":80000
+    },
+    {
+        "id":2,
+        "img":"http://medicalmarketbd.com/wp-content/uploads/2020/04/imgonline-com-ua-CompressToSize-iEhrXxjQbTTRu__72154.1544543449-1000x1000-1-650x650.jpg",
+        "name":"Suction Machine",
+        "price":32000
+    },
+    {
+        "id":3,
+        "img":"http://medicalmarketbd.com/wp-content/uploads/2020/05/cats-1-2.jpg",
+        "name":"Baby Incubator-Kangaroo KI 1000",
+        "price":550000
+
+    },
+    {
+        "id":4,
+        "img":"https://cdn-bpenf.nitrocdn.com/eaOeaueFACrJOzndOQXuSYGjHypPFUyG/assets/static/optimized/rev-1f124d0/wp-content/uploads/2020/06/jumper.jpg",
+        "name":"Pulse Oxi-meter JPD 500 (LED Display) Jumper",
+        "price":3600
+
+    },
+    {
+        "id":5,
+        "img":"http://medicalmarketbd.com/wp-content/uploads/2020/05/Five-Functions-Electric-Bed-650x650.jpg",
+        "name":"Electric Five Function Bed",
+        "price":165000
+
+    },
+    {
+        "id":6,
+        "img":"http://medicalmarketbd.com/wp-content/uploads/2020/05/giant_68791.jpg",
+        "name":"KY809-46 Stainless and Aging Resistant Wheel Chair",
+        "price":7700
+
+    },
+    {
+        "id":7,
+        "img":"http://medicalmarketbd.com/wp-content/uploads/2020/07/Neurological-Reflex-buck-hammer-1.jpg",
+        "name":"Neurosurgical Reflex Hammer Medical Instrument",
+        "price":200000
+
+    },
+    {
+        "id":8,
+        "img":"http://medicalmarketbd.com/wp-content/uploads/2020/05/catsJNJNBNJBNJNM-N-650x650.jpg",
+        "name":"BU-510 Digital Blood Pressure Monitor",
+        "price":3800
+
+    },
+    {
+        "id":9,
+        "img":"http://medicalmarketbd.com/wp-content/uploads/2020/05/pppppppppppppppp-1-1.jpg",
+        "name":"ESR Analyzer Ves-Matic-20",
+        "price": 330000
+
+    },
+    {
+        "id":10,
+        "img":"http://medicalmarketbd.com/wp-content/uploads/2021/07/wel.jpg",
+        "name":"Air & Surface Disinfection Solution",
+        "price":10000
+
+    },
+    {
+        "id":11,
+        "img":"http://medicalmarketbd.com/wp-content/uploads/2020/05/iuu.jpg",
+        "name":"Soundless Dental compressor",
+        "price":19000
+
+    },
+    {
+        "id":12,
+        "img":"http://medicalmarketbd.com/wp-content/uploads/2020/05/g-1.jpg",
+        "name":"LED Head Lamp Flash Light Torch",
+        "price":799
+
+    }
+]

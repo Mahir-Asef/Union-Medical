@@ -1,0 +1,9 @@
+.doctors{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.doctor-btn{
+    margin-top: 20px;
+    width: 200px;
+    margin-bottom: 20px;
+}

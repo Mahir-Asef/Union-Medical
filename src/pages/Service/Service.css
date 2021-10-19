@@ -1,0 +1,23 @@
+.icon{
+    font-size: 50px;
+     color:brown ;
+     background: white;
+     justify-content: center;
+ }
+ .text-class{
+     text-align:left;
+     margin-left: 10px;
+     
+ }
+ .service-card{
+     border: 1px solid lightgray;
+     border-radius: 10px;
+     margin-right: 5px;
+     width: 500px;
+     padding: 20px;
+     margin-bottom: 10px;
+     transition: .5s;
+ }
+ .service-card:hover{
+     box-shadow: 10px 10px 10px lightgray;
+ }

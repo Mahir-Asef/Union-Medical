@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name":"Professor Dr. Md. Lutful Kabir" ,
+        "specialty":" Medicine" ,
+        "ChamberTime": " 6PM-9PM Everyday",
+        "FloorNumber": "2nd",
+        "RoomNumber":315,
+        "img":"https://www.freepnglogos.com/uploads/doctor-png/doctor-bulk-billing-doctors-chapel-hill-health-care-medical-3.png"
+
+    },
+    {
+        "id": 2,
+        "name":"Professor Dr. Mohammad Zohir Uddin" ,
+        "specialty":"Medicine " ,
+        "ChamberTime":"6 PM -9 PM (Thusday & Friday Closed) ",
+        "FloorNumber":"2nd",
+        "RoomNumber":309,
+        "img":"https://www.freepnglogos.com/uploads/doctor-png/dentist-doctor-bhubaneswar-medical-doctor-36.png"
+
+    },
+    {
+        "id":3,
+        "name":"Dr. Md. Ayub Ali Chowdhury " ,
+        "specialty":" Medicine and Nephrology  " ,
+        "ChamberTime": "4PM -10PM and Friday 9AM-12PM",
+        "FloorNumber": "3rd",
+        "RoomNumber":401,
+        "img":"https://www.freepnglogos.com/uploads/doctor-png/doctor-bikowski-skin-care-center-sewickey-pennsylvania-home-35.png"
+
+    },
+    {
+        "id":4,
+        "name":"Prof. Dr. M. Touhidul Haque" ,
+        "specialty":"Cardiology" ,
+        "ChamberTime": "5.00 PM -9.00 PM (Saturday to Thursday) (Friday 11.00 AM to 2.00PM) ",
+        "FloorNumber": "3rd",
+        "Room Number":402 ,
+        "img":"https://www.freepnglogos.com/uploads/doctor-png/basic-ideas-for-logical-programs-for-doctor-home-loan-6.png"
+
+    },
+    {
+        "id": 5,
+        "name":"Dr. Sufia Jannat" ,
+        "specialty":" Cardiology " ,
+        "ChamberTime": "Time: 6.00 PM -9.00 PM (Friday & Monday Closed)",
+        "FloorNumber": "3rd",
+        "Room Number":414,
+        "img":"https://www.freepnglogos.com/uploads/doctor-png/png-woman-doctor-transparent-woman-doctor-images-40.png"
+
+    },
+    {
+        "id":6 ,
+        "name":"Dr. Parvez Ahsan" ,
+        "specialty":"Orthopedic Surgery (Hip & Knee) " ,
+        "ChamberTime": "6.30 PM -10.00 PM ",
+        "FloorNumber": "3rd ",
+        "RoomNumber":418,
+        "img":"https://www.freepnglogos.com/uploads/doctor-png/doctor-align-with-lower-cost-and-increased-quality-alignment-21.png"
+
+    },
+    {
+        "id":7 ,
+        "name":"Professor Dr. Md. Abdul Hayee" ,
+        "specialty":"Neurology & Medicine " ,
+        "ChamberTime": "5.00 PM -9.00 PM (Friday 6PM - 9PM) ",
+        "FloorNumber": "2nd",
+        "RoomNumber":302,
+        "img":"https://www.freepnglogos.com/uploads/doctor-png/doctor-png-image-pngpix-1.png" 
+        
+
+    },
+    {
+        "id":8 ,
+        "name":"Prof. Dr. Md. Mahbubur Rahman Major (Retd.)" ,
+        "specialty":" Neurology & Medicine" ,
+        "ChamberTime": "10AM-1PM & 6 PM -9 PM (Friday 5PM - 8.PM)",
+        "FloorNumber": "3rd",
+        "RoomNumber":410,
+        "img":"https://jooinn.com/images600_/specialist-doctor.jpg"
+
+    },
+    {
+        "id":9 ,
+        "name":" Dr. Roksana Begum" ,
+        "specialty":" General Dentistry " ,
+        "ChamberTime": "4.30 PM -9.30 PM",
+        "FloorNumber": "1st (IPD)",
+        "RoomNumber":205,
+        "img":"https://www.freepnglogos.com/uploads/doctor-png/png-woman-doctor-transparent-woman-doctor-images-11.png"
+
+    },
+    {
+        "id": 10,
+        "name":"Dr. Fatema Khatun Rumi" ,
+        "specialty":"Endodontics " ,
+        "ChamberTime": " 4.00 PM -9.00 PM, Friday 11AM to 4.00PM",
+        "FloorNumber": " 1ST",
+        "RoomNumber":204,
+        "img":"https://www.freepnglogos.com/uploads/doctor-png/doctor-png-transparent-doctor-images-0.png"
+    },
+    {
+        "id":11 ,
+        "name":" Professor Dr. Alamgir Kabir" ,
+        "specialty":" Hematology " ,
+        "ChamberTime": " 7 PM -9 PM (Friday Closed) ",
+        "FloorNumber": "3rd",
+        "RoomNumber":403, 
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTliYB0T7sgoBNTtm5WulNKpsq_cVIyfSvTNpXekAlZMJbYCNGy2YD-v6Sdka6EwSQCxSU&usqp=CAU"
+
+    },
+    {
+        "id":12 ,
+        "name":"Dr. Tasnim Ara" ,
+        "specialty":"Hematology" ,
+        "Chamber Time": "6 PM - 9 PM (Friday Closed) ",
+        "Floor Number": " 2nd",
+        "RoomNumber":321,
+        "img":"https://pngimg.com/uploads/doctor/doctor_PNG16043.png"
+
+    }
+]

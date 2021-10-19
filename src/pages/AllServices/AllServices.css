@@ -1,0 +1,9 @@
+.service-class{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 10px;
+}
+.service-text{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}

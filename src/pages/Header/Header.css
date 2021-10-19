@@ -1,0 +1,49 @@
+.navbar {
+    background-color: #1d1d1d;
+  }
+  
+  .logo {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .logo:hover {
+    color: white;
+  }
+  
+  .logo-img {
+    width: 15%;
+  }
+  
+  .logo-text {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .nav-item {
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .nav-item:hover {
+    color: lightgreen;
+    border-bottom: 2px solid lightgrey;
+  }
+  
+  .login {
+    background-color: green !important;
+    border: none !important;
+    font-size: 20px !important;
+    padding: 8px 40px !important;
+    width: 170px;
+  }
+  
+  .cart {
+    color: #ffffff;
+    font-size: 22px;
+  }
+  
+  .cart:hover {
+    color: seagreen;
+  }
