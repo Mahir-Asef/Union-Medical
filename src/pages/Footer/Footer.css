@@ -13,3 +13,12 @@
     background-color: brown;
     color: white;
 }
+
+@media only screen and (max-width: 426px) {
+    .footer{
+        background-color: black;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        padding: 20px;
+    }
+  }

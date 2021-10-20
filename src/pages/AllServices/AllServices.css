@@ -7,3 +7,10 @@
     margin-top: 100px;
     margin-bottom: 70px;
 }
+@media only screen and (max-width:426px) {
+    .service-class{
+        display:flex;
+        flex-direction: column;
+        margin: 0%;
+    }
+}

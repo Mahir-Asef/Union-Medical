@@ -1,23 +1,30 @@
 import React from 'react';
-import img from '../../images/hero/hero.jpg'
-import './HeroSection.css'
-import {Button} from 'react-bootstrap'
+import video from '../../images/hero/hero.mp4';
+import './HeroSection.css';
+import {Button} from 'react-bootstrap';
 import { NavLink}  from "react-router-dom";
+
 const HeroSection = () => {
     return (
-       <div className="hero-head">
-            <div className="hero ">
-                <div className="hero-img">
-                    <img src={img} className="img"  alt="" srcset="" />
-                </div>
-                 <div className="hero-text">
-                    <h1>Welcome to our Union Medical </h1>
-                    <h4>“Dr. Sather been a hero to many, helping patients manage complex medical conditions, while  doing the extra things that exemplify his compassion”</h4>
-                 </div>
-                 <NavLink to="/login"><Button >Please Login</Button></NavLink>
-            </div>
-
+        <div className="hero-section">
+        <div className="hero-background">
+          <video className="video-background" autoPlay loop muted>
+            <source src={video} type="video/mp4"></source>
+          </video>
+          <div className="overlay"></div>
         </div>
+        <div className="main-title">
+          <h2 className="sub-text">Best Hospital in town</h2>
+          <h1 className="main-text mb-sm-3">
+          WELCOME TO UNION MEDICAL
+          </h1>
+          <p className=" hero-details-text text-white mb-sm-5">
+            We are here to take care about you health
+          </p>
+          <NavLink to="/login"><Button className="btn-success" >Login Here</Button></NavLink>
+        </div>
+      </div>
+  
     );
 };
 

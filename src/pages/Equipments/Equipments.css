@@ -5,3 +5,13 @@
 .text{
     margin-top: 100px;
 }
+@media only screen and (max-width: 426px) {
+    .equipments-class{
+        display: flex;
+        flex-direction: column;
+    }
+    .text{
+        margin-top: 50px;
+    }
+  }
+  

@@ -39,7 +39,6 @@ const Banner = () => {
 
                     <Carousel.Caption>
                         <h3 className="banner-text">We never give up till last second.</h3>
-                        <p className="banner-text">We try our best to provide the best health care and solution</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

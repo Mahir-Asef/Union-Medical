@@ -19,7 +19,7 @@ const Doctor = (props) => {
                 <p>Room-Number:{RoomNumber}</p>
                 </div>
             </div>
-            <NavLink to="/bookedappointment"><Button > Book Your Appointment</Button></NavLink>
+            <NavLink to="/bookedappointment"><Button className="btn-warning text-white" > Book Your Appointment</Button></NavLink>
         </div> 
     );
 };

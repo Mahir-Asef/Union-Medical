@@ -1,5 +1,5 @@
 import {useState,useEffect} from 'react';
-import { getAuth , signInWithPopup , GoogleAuthProvider , createUserWithEmailAndPassword , signInWithEmailAndPassword ,signOut,onAuthStateChanged , updateProfile  } from "firebase/auth";
+import { getAuth , signInWithPopup , GoogleAuthProvider , createUserWithEmailAndPassword , signInWithEmailAndPassword,sendEmailVerification ,signOut,onAuthStateChanged,sendPasswordResetEmail, updateProfile  } from "firebase/auth";
  import initializeAuthentication from '../Firebase/Firebase.init.js'
 
 initializeAuthentication();
@@ -37,57 +37,70 @@ const useFirebase=()=>{
     const toggleLogIn=e=>{
       setIsLogIn(e.target.checked);
     }
+      const handleNameChange=e=>{
+        setName(e.target.value)
+      }
     
-    const handleNameChange=e=>{
-      setName(e.target.value)
-    }
-  
-    const handleEmailChange =e=>{
-      setEmail(e.target.value)
-    }
-    const handlePasswordChange =e=>{
-      setPassword(e.target.value)
-    }
-  
-    const handleRegistration=e=>{
-      e.preventDefault();
-      if(password.length<6){
-        setError("Password must be at lest 6 characters longs.")
-        return;
+      const handleEmailChange =e=>{
+        setEmail(e.target.value)
       }
-      if(!/(?=.*[a-z])(?=.*[A-Z])/.test(password)){
-        setError('password must contain two upper case'); 
-        return;
+      const handlePasswordChange =e=>{
+        setPassword(e.target.value)
       }
-      isLogIn ? processLogin(email,password) : registerNewUser(email,password);
-    }
-    const processLogin=(email,password)=>{
-      signInWithEmailAndPassword(auth,email,password)
-      .then(result=>{
-        const user=result.user;
-        console.log(user);
-        setError('');
-      })
-      .catch(error=>{
-        setError(error.message);
-      })
-    }
-    const registerNewUser=(email,password)=>{
-      createUserWithEmailAndPassword(auth,email,password)
-      .then(result=>{
-        const user =result.user;
-        console.log(user);
-        setError('');
-        setUserName();
-      })
-      .catch(error=>{
-        setError(error.message);
-      })
-    }
-    const setUserName=()=>{
-      updateProfile(auth.currentUser , {displayName : name})
-      .then(result=>{})
-    }
+    
+      const handleRegistration=e=>{
+        e.preventDefault();
+        if(password.length<6){
+          setError("Password must be at lest 6 characters longs.")
+          return;
+        }
+        if(!/(?=.*[a-z])(?=.*[A-Z])/.test(password)){
+          setError('password must contain two upper case'); 
+          return;
+        }
+        isLogIn ? processLogin(email,password) : registerNewUser(email,password);
+      }
+      const processLogin=(email,password)=>{
+        signInWithEmailAndPassword(auth,email,password)
+        .then(result=>{
+          const user=result.user;
+          setError('');
+        })
+        .catch(error=>{
+          setError('you have input wrong password or email !! please correct it');
+        })
+      }
+    
+      const registerNewUser=(email,password)=>{
+        createUserWithEmailAndPassword(auth,email,password)
+        .then(result=>{
+          const user =result.user;
+          console.log(user);
+          setError('');
+          verifyEmail();
+          setUserName();
+        })
+        .catch(error=>{
+          setError(error.message);
+        })
+      }
+      const setUserName=()=>{
+        updateProfile(auth.currentUser , {displayName : name})
+        .then(result=>{})
+      }
+      const verifyEmail=()=>{
+        sendEmailVerification(auth.currentUser)
+        .then(result=>{
+          console.log(result);
+        })
+      }
+    
+      const handleResetPassword=()=>{
+        sendPasswordResetEmail(auth,email)
+        .then(result=>{})
+        
+      }
+      
     return {
         user,
         signInUsingGoogle,
@@ -98,6 +111,7 @@ const useFirebase=()=>{
         handlePasswordChange,
         error,
         toggleLogIn,
+        handleResetPassword,
         isLogIn,processLogin
  
     }

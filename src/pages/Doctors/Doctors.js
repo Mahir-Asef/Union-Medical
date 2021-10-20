@@ -14,14 +14,14 @@ const Doctors = () => {
     return (
         <div>
             <div className="container mx-auto">
-            <h1 className="text-center m-5">Our Expert Doctors </h1>
+            <h1 className="text-center  doctors-text">Our Expert Doctors </h1>
             <div className="doctors">
             {
                 doctors.slice(0,6).map(doctor=><Doctor key={doctor.id} doctor={doctor} ></Doctor>)
             }
         </div>
         </div>
-        <NavLink to="alldoctors"><Button className="doctor-btn" >See more Doctors</Button></NavLink>
+        <NavLink to="/alldoctors"><Button className="doctor-btn btn-success" >See more Doctors</Button></NavLink>
         </div>
     );
 };

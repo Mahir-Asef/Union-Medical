@@ -3,6 +3,7 @@
      border-radius: 10px;
      margin-right: 5px;
      width: 300px;
+     height: auto;
      padding: 20px;
      margin-bottom: 10px;
      transition: .5s;
@@ -10,3 +11,18 @@
 .doctor-card:hover{
     box-shadow: 10px 10px 10px lightgray;
 }
+@media only screen and (max-width: 426px) {
+    .doctor-card{
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        margin-right: 5px;
+        width: 300px;
+        padding: 10px;
+        margin:auto;
+        transition: .5s;
+    }
+    .doctor-card:hover{
+        box-shadow: 10px 10px 10px lightgray;
+    }
+  }
+  

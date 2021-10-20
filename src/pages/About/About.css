@@ -1,3 +1,28 @@
-.about-text{
-    margin-top: 100px;
+.about{
+    margin-top: 20px;
 }
+.about-card{
+    border: 5px solid lightgray;
+    border-radius: 10px;
+    margin-right: 5px;
+    width: auto;
+    padding: auto;
+    margin:20px;
+    transition: .5s;
+}
+.about-card:hover{
+    box-shadow: 10px 10px 10px  lightgray;
+}
+@media only screen and (max-width: 426px) {
+   .about-card{
+    border: 3px solid lightgray;
+    border-radius: 5px;
+    width: auto;
+    padding: auto;
+    margin:10px;
+    transition: .5s;
+   }
+   .about-card:hover{
+    box-shadow: 10px 10px 10px  lightgray;
+}
+  }

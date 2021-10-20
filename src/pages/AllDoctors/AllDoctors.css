@@ -2,3 +2,11 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
 }
+
+@media only screen and (max-width: 426px) {
+    .all-doctors{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+   }

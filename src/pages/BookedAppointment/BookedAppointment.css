@@ -5,3 +5,14 @@
     color: lime;
     font-size: 40px;
 }
+
+@media only screen and (max-width: 426px) {
+   .booked{
+       margin-top: 10px;
+   }
+    .book-img{
+        width: 300px;
+        height: 300px;
+    }
+  }
+  

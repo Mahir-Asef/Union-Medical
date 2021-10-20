@@ -13,7 +13,7 @@ const Equipment = (props) => {
             <h3>Name:{name}</h3>
             <h4>Price:${price}</h4>
         </div>
-        <NavLink to="/buyingequipment"><Button > <span><i class="fas fa-cart-arrow-down"></i></span> Buy Now</Button></NavLink>
+        <NavLink to="/buyingequipment"><Button className="btn-success" > <span><i class="fas fa-cart-arrow-down"></i></span> Buy Now</Button></NavLink>
     </div>
     );
 };

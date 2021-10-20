@@ -1,0 +1,62 @@
+[
+    {
+        "id":1 ,
+        "icon":"fas fa-hospital" ,
+        "ServiceName":"Hospital",
+        "description":"Hospital, an institution that is built, staffed, and equipped for the diagnosis of disease;for the treatment, both medical and surgical, of the sick and the injured; and for their housing during this process. The modern hospital also often serves as a centre for investigation and for teaching.To better serve the wide-ranging needs of the community, the modern hospital has often developed outpatient facilities, as well as emergency, psychiatric, and rehabilitation services. In addition,bed less hospitals provide strictly ambulatory (outpatient) care and day surgery. Patients arrive at the facility for short appointments.They may also stay for treatment in surgical or medical units for part of a day or for a full day, after which they are discharged for follow-up by a primary care health provider."
+    },
+    {
+        "id":2 ,
+        "icon":"fas fa-user-md" ,
+        "ServiceName":"Doctor",
+        "description":"Doctors, also known as physicians, are licensed health professionals who maintain and restore human health through the practice of medicine.They examine patients,review their medical history, diagnose illnesses or injuries, administer treatment,and counsel patients on their health and well being.To ensure success, doctors should have fantastic organizational and time management skills, the ability to make effective decisions, and an innate ability to manage change. Top candidates will have the willingness and ability to handle uncertainty and conflicting demands while remaining calm under pressure."
+    },
+    {
+        "id": 3,
+        "icon":"fas fa-ambulance" ,
+        "ServiceName":"Ambulance",
+        "description":"The ambulance was a repurposed plumber's van. The roof lights were on a board anchored with old ropes and only one headlamp was in working order, winking into the wintry night. Eyed the balding tyres but what choice did she have? Before she'd even remembered how to breath right she was inside next to Tanya, the sound of her sharp shallow breathing lost under the roar of the diesel engine and the rattle of the make-shift trolley bed."
+    },
+    {
+        "id": 4,
+        "icon":"fas fa-clinic-medical" ,
+        "ServiceName":"Clinic",
+        "description":"Clinic, an organized medical service offering diagnostic, therapeutic, or preventive outpatient services. Often, the term covers an entire medical teaching centre, including the hospital and the outpatient facilities. The medical care offered by a clinic may or may not be connected with a hospital.The term clinic may be used to designate all the activities of a general clinic or only a particular division of the work— e.g., the psychiatric clinic, neurology clinic, or surgery clinic. The entire activity when connected with a hospital is typically called the outpatient department, and the specific subdivisions may be referred to as clinics."
+    },
+    {
+        "id": 5,
+        "icon":"fas fa-diagnoses" ,
+        "ServiceName":"Diagnostic",
+        "description":"Diagnosis, the process of determining the nature of a disease or disorder and distinguishing it from other possible conditions. The term comes from the Greek gnosis, meaning knowledge.The diagnostic process is the method by which health professionals select one disease over another, identifying one as the most likely cause of a person’s symptoms. Symptoms that appear early in the course of a disease are often more vague and undifferentiated than those that arise as the disease progresses, making this the most difficult time to make an accurate diagnosis. Reaching an accurate conclusion depends on the timing and the sequence of the symptoms, past medical history and risk factors for certain diseases, and a recent exposure to disease. The physician, in making a diagnosis, also relies on various other clues such as physical signs, nonverbal signals of distress, and the results of selected laboratory and radiological and other imaging tests. From the large number of facts obtained, a list of possible diagnoses can be determined, which are referred to as the differential diagnosis. The physician organizes the list with the most likely diagnosis given first. Additional information is identified, and appropriate tests are selected that will narrow the list or confirm one of the possible diseases."
+    },
+    {
+        "id":6 ,
+        "icon": "fas fa-tint",
+        "ServiceName":"Blood Donor",
+        "description":"A blood donation occurs when a person voluntarily has blood drawn and used for transfusions and/or made into  medications by a process called fractionation (separation of whole blood components). Donation may be of whole blood, or of specific components directly (apheresis). Blood banks often participate in the collection process as well as the procedures that follow it.Today in the developed world, most blood donors are unpaid volunteers who donate blood for a community supply. In some countries, established supplies are limited and donors usually give blood when family or friends need a transfusion (directed donation). Many donors donate for several reasons, such as a form of charity, general awareness regarding the demand for blood, increased confidence in oneself, helping a personal friend or relative, and social pressure. Despite the many reasons that people donate, not enough potential donors actively donate. However, this is reversed during disasters when blood donations increase, often creating an excess supply that will have to be later discarded. In countries that allow paid donation some people are paid, and in some cases there are incentives other than money such as paid time off from work. People can also have blood drawn for their own future use. Donating is relatively safe, but some donors have bruising where the needle is inserted or may feel faint."
+            },
+    {
+        "id":7,
+        "icon": "fas fa-x-ray",
+        "ServiceName":"x ray/radiology services",
+        "description":"X-rays are a type of radiation called electromagnetic waves. X-ray imaging creates pictures of the inside of your body. The images show the parts of your body in different shades of black and white. This is because different tissues absorb different amounts of radiation. Calcium in bones absorbs x-rays the most, so bones look white. Fat and other soft tissues absorb less and look gray. Air absorbs the least, so lungs look black.The most familiar use of x-rays is checking for fractures (broken bones),but x-rays are also used in other ways. For example, chest x-rays can spot pneumonia. Mammograms use x-rays to look for breast cancer."
+            },
+    {
+        "id":8,
+        "icon": "fas fa-flask",
+        "ServiceName":"laboratory services",
+        "description":"Generating quality data starts with protocol- and visit-specific specimen collection kits that are accurately assembled and reach investigator sites on time. Global logistics experts monitor shipments to assure within stability delivery of specimens. Consistent results are driven through automation and aligned technology and instrumentation platforms. Standardized processes and procedures are used across our global network of central labs – for specialized testing and for high-volume safety testing. When studies have been completed, samples can be stored in a Lab purpose-built bio-repository. Storage for a broad range of specimen types is provided i secure, protected and monitored facilities. Stored sample inventory can be searched, requested and shipped for further testing needs.Biomarker-driven drug development can also necessitate the ability to view data across protocols, combining data from multiple different sources. Global Specimen Solutions, a  company, offers comprehensive specimen lifecycle management through GlobalCODE®, a SaaS-based informatics platform. This stand-alone service uniquely combines codified informed consent with specimen management to enable critical visibility from sample collection to destruction."
+            },
+    {
+        "id":9,
+        "icon": "fab fa-nutritionix",
+        "ServiceName":"nutritional counseling",
+        "description":"A process by which a health professional with special training in nutrition helps people make healthy food choices and form healthy eating habits. In cancer treatment, the goal of nutritional counseling is to help patients stay healthy during and after treatment and to stay strong enough to fight infections and the recurrence of disease. Also called dietary counseling."
+            },
+    {
+        "id":10,
+        "icon": "fas fa-dna",
+        "ServiceName":"genetic counseling and testing",
+        "description":"Genetic counseling gives you information about how genetic conditions might affect you or your family. The genetic counselor or other healthcare professional will collect your personal and family health history. They can use this information to determine how likely it is that you or your family member has a genetic condition. Based on this information, the genetic counselor can help you decide whether a genetic test might be right for you or your relative."
+            }
+]
